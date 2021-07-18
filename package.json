@@ -1,0 +1,20 @@
+{
+  "name": "discordjs-tutorial-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/bot.ts",
+    "dev": "nodemon src/bot.ts"
+  },
+  "dependencies": {
+    "@types/node": "^16.3.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.1.0"
+  }
+}
